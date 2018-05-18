@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+.hidden{
+	display:none;
+}
+.page{
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+#telaInicio{
+	background:url("../img/fundoPrincipal.jpg");
+	background-size:cover;
+}
+#telaLogin{
+	background:url("../img/fundoLogin.jpg");
+	background-size:cover;
+}
+#telaCarregamento{
+	background: rgba(1,0,1,0.7);
+	z-index: 9999;
+}
+#telaCadastro{
+	background: url("../img/cadastro.jpg");
+	background-size:cover;
+	display: block;
+	padding-top: 25px;
+	text-align: center;
+	position: absolute;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	color: white;
+}
+.logoApp{
+	font-size: 85px;
+	color: #F0F0F0;
+	font-family: 'Sacramento', cursive;
+	padding-left: 6%;
+	padding-top: 30%;
+	  -webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	-o-transform: rotate(-20deg);
+}
+.navbar{
+	background:#800000;
+	width:100%;
+	height:55px;
+	text-align: center;
+	border-bottom: 3px solid #303952;
+}
+.navbar span{
+	font-size: 17px;
+	line-height: 55px;
+	color: #f0f0f0;
+	font-weight:bold;
+}
+.btnfooter{
+	position:fixed;
+	width:100%;
+	padding: 25px 0px;
+	text-align:center;
+	background: #487eb0;
+	color: #f0f0f0;
+	bottom: 0;
+	border: 0;
+	text-transform:uppercase;
+	font-size: 20px;
+}
+.lista{
+	list-style-type:none;
+	padding:0;
+	background:white;
+}
+.item-lista{
+	display:block;
+	border-bottom: 1px solid #bbb;
+	padding:15px 5px;
+}
+.painel-login{
+	width: 90%;
+	background: #63cdda;
+	margin: auto;
+	padding: 15px 5%;
+	border-radius: 5px;
+}
+.form-login{
+	width: 80%;
+	margin-bottom: 10px;
+	padding: 10px 5%;
+	border: 1px solid #bbb;
+	border-radius: 2px;
+}
+.login-header{
+	text-align:center;
+	margin-bottom:5px;
+}
+.btn{
+	width:auto;
+	padding: 10px 25px;
+	border:0;
+	border-radius:2px;
+	text-transform:uppercase;
+}
+.btn-primary{
+	background: #0c2461;
+	color: white;
+}
+.btn-success{
+	background:#e58e26;
+	color: white;
+}
+.img-load{
+	position:absolute;
+	width: 150px;
+	height: 150px;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+}
