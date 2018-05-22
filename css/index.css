@@ -112,6 +112,14 @@
 	background:#e58e26;
 	color: white;
 }
+.btn-warning{
+	background: #FFFFFF;
+	color: black;
+}
+.btn-danger{
+	background: #FF0000;
+	color:white;
+}
 .img-load{
 	position:absolute;
 	width: 150px;
@@ -124,3 +132,32 @@
 h2{
 	font-family: 'Quicksand', sans-serif;
 }
+#telaPainel{
+	background: url("../img/painel.jpg");
+	background-size:cover;
+	display: block;
+	padding-top: 25px;
+	text-align: center;
+	position: absolute;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	color: #008B8B;
+}
+
+div.floating-menu {
+	position:absolute;
+	width:380px;
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+
+div.floating-menu a{
+	display:block;
+	margin:0 0.5em;
+}
+
+a{ 
+text-decoration:none; 
+} 

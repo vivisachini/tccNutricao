@@ -43,4 +43,12 @@ var app = {
     }
 };
 
+function check form(){
+		}
+		else{
+			alert("Login incorreto ou senha incorreta.");
+		}
+}
+
+
 app.initialize();
