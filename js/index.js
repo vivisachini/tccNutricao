@@ -44,6 +44,7 @@ var app = {
 };
 
 function check form(){
+		if (form.login.value="vitor" && form.senha.value="abel"){
 		}
 		else{
 			alert("Login incorreto ou senha incorreta.");
